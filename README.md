@@ -32,6 +32,14 @@ ghChangeLog.generateHistoryMD({
 });
 ```
 
+## Example
+
+xtemplate milestones and issues: https://github.com/kissyteam/xtemplate/milestones?state=closed
+
+xtemplate HISTORY.md: https://github.com/kissyteam/xtemplate/blob/master/HISTORY.md
+
+xtemplate history at spm: http://spmjs.io/docs/xtemplate/history.html
+
 ## Related
 
 npmjs.org/package/gh-changelog

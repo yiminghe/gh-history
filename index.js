@@ -97,7 +97,7 @@ function getSingleHistory(h) {
   var milestone = h.milestone;
   var issues = h.issues;
   var itemContent = [];
-  itemContent.push('## ' + escapeHtml(milestone.title) + ' (' + milestone.created_at.substring(0, 10) + ')');
+  itemContent.push('## ' + escapeHtml(milestone.title) + ' / ' + milestone.created_at.substring(0, 10));
   itemContent.push('');
   itemContent = itemContent.concat(issues.map(function (issueItem) {
     var labels = issueItem.labels;
