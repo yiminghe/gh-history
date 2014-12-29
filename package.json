@@ -1,6 +1,6 @@
 {
   "name": "gh-history",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "generate github history into md file",
   "main": "index.js",
   "author": "yiminghe@gmail.com",
