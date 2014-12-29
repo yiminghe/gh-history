@@ -70,7 +70,7 @@ function getIssuesFromAllMileStones(opts, allMileStones) {
         histories.push(milestoneData);
         if (histories.length === allMileStones.length) {
           histories.sort(function (milestoneData_1, milestoneData_2) {
-            return semver.lt(milestoneData_1.milestone.title, milestoneData_2.milestone.title);
+            return semver.lt(milestoneData_1.milestone.title.trim(), milestoneData_2.milestone.title.trim()) ? 1 : -1;
           });
           createMDFile(opts, histories);
         }
