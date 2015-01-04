@@ -22,11 +22,11 @@ or set process.env.GH_USERNAME and process.env.GH_PASSWORD.
 ## Api
 
 ```js
-var ghChangeLog = require('gh-changelog');
-ghChangeLog.generateHistoryMD({
+var ghHistory = require('gh-history');
+ghHistory.generateHistoryMD({
     user : 'kissyteam',
     repo : 'kissy',
-    mdFilePath : './changelog.md',
+    mdFilePath : './HISTORY.md',
     loginUserName : 'exampleName',  //optional, or process.env.GH_USERNAME unless you get rate limit error
     loginPassword : 'examplePassword'  //optional, or process.env.GH_PASSWORD unless you get rate limit error
 });
